@@ -14,7 +14,7 @@ const ActionButton = ({ IconComponent, title }: any) => {
 
 const styles = StyleSheet.create({
   buttonContainer: {
-    backgroundColor: "pink",
+    backgroundColor: "#E4E4E7",
     width: 60,
     height: 60,
     borderRadius: 50,
