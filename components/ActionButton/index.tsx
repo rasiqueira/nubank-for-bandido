@@ -1,60 +1,36 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
-import ProfileIcon from "@/assets/images/icons/profile.svg";
-import EmailIcon from "../../assets/images/icons/email.svg";
-import EyeClosedIcon from "@/assets/images/icons/eye-close.svg";
-import QuestionIcon from "@/assets/images/icons/question.svg";
 
-const ActionButton = () => {
+const ActionButton = ({ IconComponent, title }: any) => {
   return (
-    <View style={styles.headerContainer}>
-      <View
-        style={{
-          flexDirection: "row",
-          justifyContent: "space-between",
-          alignItems: "center",
-          marginBottom: 30,
-        }}
-      >
-        <View>
-          <ProfileIcon />
-        </View>
-        <View
-          style={{
-            flexDirection: "row",
-            gap: 22,
-          }}
-        >
-          <EyeClosedIcon />
-          <QuestionIcon />
-          <EmailIcon />
-        </View>
+    <View style={{ gap: 10, alignItems: "center" }}>
+      <View style={styles.buttonContainer}>
+        <IconComponent width={25} />
       </View>
-      <View style={styles.textContainer}>
-        <Text style={styles.title}>Olá, Moov!</Text>
-      </View>
+      <Text style={styles.description}>{title} </Text>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
-  headerContainer: {
-    backgroundColor: "#8A05BE",
-    paddingHorizontal: 15,
-    paddingVertical: 60,
-    maxHeight: 178,
-    flexDirection: "column",
-    justifyContent: "space-between",
-  },
-  textContainer: {
-    justifyContent: "flex-end",
-    marginBottom: 15,
+  buttonContainer: {
+    backgroundColor: "pink",
+    width: 60,
+    height: 60,
+    borderRadius: 50,
+    padding: 36,
+    justifyContent: "center",
+    alignItems: "center",
   },
   title: {
     color: "#fff",
     fontSize: 18,
     fontWeight: "bold",
     fontFamily: "Roboto",
+  },
+  description: {
+    fontSize: 14,
+    fontWeight: "medium",
   },
 });
 
