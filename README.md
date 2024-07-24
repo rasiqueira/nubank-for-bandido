@@ -6,9 +6,11 @@ This project is a parody app designed to mimic the Nubank interface. It has a un
 
 ## Features
 
-- **Pix Button:** Triggers a loud moan sound.
-- **Camera Integration:** Takes a photo when the Pix button is pressed.
-- **Firebase Integration:** Uploads the photo to Firebase Storage.
+- [x]  Triggers a loud moan sound
+- [x]  Takes a photo and upload to Firebase Storage.
+- [ ]  Send the location
+- [ ]  Disable volume and power off buttons phisically
+- [ ]  Encrypt the phone
 
 ## Getting Started
 
