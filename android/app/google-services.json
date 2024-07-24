@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "xxxxxx",
-    "project_id": "xxxxxx",
-    "storage_bucket": "xxxxxx"
+    "project_number": "1019491998518",
+    "project_id": "nubank-clone-968a8",
+    "storage_bucket": "nubank-clone-968a8.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "xxxxxx",
+        "mobilesdk_app_id": "1:1019491998518:android:6022feefa527d587ec3197",
         "android_client_info": {
-          "package_name": "xxxxxx"
+          "package_name": "build.gradle"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "xxxxxx"
+          "current_key": "AIzaSyA0gtbjQYcHARmpDrrsZfF9sKlBU0LZD88"
         }
       ],
       "services": {
